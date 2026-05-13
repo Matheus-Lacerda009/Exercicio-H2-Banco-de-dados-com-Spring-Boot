@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/alunos")
+@RequestMapping("/gamer")
 @RequiredArgsConstructor
 public class GamerController {
     private final GamerService service;
